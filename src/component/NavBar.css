@@ -1,0 +1,539 @@
+@keyframes cart-icon_shadow-pulse__124qv {
+  0% {
+    box-shadow: 0 0 0 0 rgba(255, 0, 0, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 0 0 red;
+  }
+  to {
+    box-shadow: 0 0 0 0.5rem transparent;
+  }
+}
+header {
+  display: block;
+  color: #000;
+  font-size: 16px;
+  line-height: 1.2;
+  width: 100vw;
+}
+header .popUp {
+  background: #ffffff;
+  position: relative;
+  z-index: 3;
+  opacity: 1;
+  transition: all 0.5s ease-in-out;
+  font-weight: 400;
+  line-height: 1.25rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  max-height: 6.0625rem;
+  padding: 0.4375rem 0 0.4375rem 0;
+}
+header .popUp .popupContent {
+  display: flex;
+  justify-content: center;
+  margin: 0 2.25rem;
+  align-items: center;
+  -webkit-font-smoothing: antialiased;
+}
+header .popUp .popupContent a {
+  padding-left: 5px;
+  color: black;
+}
+header .popUp .popupContent p {
+  margin: 0;
+}
+header .popUp .closePop {
+  border: none;
+  background: none;
+  color: inherit;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  height: 3rem;
+  right: 0;
+  width: 3rem;
+  justify-content: flex-end;
+}
+header .mainNav {
+  background: #fff;
+  position: relative;
+  top: 0;
+  z-index: 3;
+}
+header .mainNav .topNav-desktop_container {
+  width: 100vw;
+  background-color: #fafafa;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .mainNav .topNav-desktop_container .topNav-desktop {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 auto;
+  max-width: 1318px;
+  padding: 0 1.5625rem;
+}
+header .mainNav .topNav-desktop_container .topNav-desktop .signIn {
+  z-index: 3;
+}
+header .mainNav .topNav-desktop_container .topNav-desktop .signIn .userBtn {
+  position: absolute;
+  transform: translateX(25%) translateY(10%);
+  background-color: #d31334;
+  flex-direction: column;
+  align-items: center;
+  border: none;
+  border-radius: 4px;
+  width: 80px;
+  padding: 10px;
+  z-index: 3;
+  color: white;
+  justify-content: center;
+}
+header .mainNav .topNav-desktop_container .topNav-desktop .signIn .userBtn:hover {
+  cursor: pointer;
+  background-color: darkred;
+}
+header .mainNav .topNav-desktop_container .topNav-desktop .signIn .signOutBtn {
+  top: 30px;
+}
+header .mainNav .topNav-desktop_container .topNav-desktop .signIn .viewOrderBtn {
+  top: 72px;
+}
+header .mainNav .topNav-desktop_container .topNav-desktop svg {
+  height: 100%;
+  width: 100%;
+  max-height: 16px;
+  max-width: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 8px;
+}
+header .mainNav .topNav-desktop_container .topNav-desktop svg path {
+  scale: 0.65;
+}
+header .mainNav .topNav-desktop_container .topNav-desktop svg.gift path, header .mainNav .topNav-desktop_container .topNav-desktop svg.can path {
+  scale: 1;
+}
+header .mainNav .topNav-desktop_container .topNav-desktop .iconDes {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+header .mainNav .topNav-desktop_container .topNav-desktop .iconDes::after {
+  content: "";
+  width: 0;
+  height: 0.125rem;
+  display: block;
+  background: red;
+  transition: 250ms ease-in-out;
+  margin-top: 1px;
+}
+header .mainNav .topNav-desktop_container .topNav-desktop .iconDes:hover {
+  cursor: pointer;
+}
+header .mainNav .topNav-desktop_container .topNav-desktop .iconDes:hover:after {
+  width: 100%;
+}
+header .mainNav button {
+  background: none;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+header .mainNav button p {
+  padding-left: 4px;
+}
+header .mainNav .navDesktop {
+  display: flex;
+  flex-direction: column;
+  width: 95vw;
+  max-width: 85.75rem;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 1.5625rem;
+  z-index: 2;
+}
+header .mainNav .navDesktop .navPrimary {
+  font-weight: 600;
+  grid-area: navPrimary;
+  letter-spacing: 0.075rem;
+  line-height: 1.25rem;
+  transition: color 0.1s linear;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  z-index: 2;
+  max-width: 1322px;
+  width: 95vw;
+  justify-content: space-between;
+}
+header .mainNav .navDesktop .navPrimary .navPrimaryContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+header .mainNav .navDesktop .navPrimary .navLogo {
+  width: 50px;
+  height: 50px;
+}
+header .mainNav .navDesktop .navPrimary .navLogo:hover {
+  cursor: pointer;
+}
+header .mainNav .navDesktop .navPrimary .navList {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+header .mainNav .navDesktop .navPrimary .navList h2 {
+  border: none;
+  text-align: -webkit-match-parent;
+  padding: 0.3125rem 1.25rem;
+  margin: 0;
+  display: inline-block;
+}
+header .mainNav .navDesktop .navPrimary .navList h2::after {
+  content: "";
+  width: 0;
+  height: 0.3rem;
+  display: block;
+  background: red;
+  transition: 250ms ease-in-out;
+}
+header .mainNav .navDesktop .navPrimary .navList h2:hover {
+  cursor: pointer;
+}
+header .mainNav .navDesktop .navPrimary .navList h2:hover:after {
+  width: 2.5rem;
+}
+header .mainNav .navDesktop .navPrimary .navSecondary {
+  display: block;
+  grid-area: navSecondary;
+  height: 100%;
+  padding: 1.125rem 0;
+  z-index: 1;
+}
+header .mainNav .navDesktop .navPrimary .navSecondary .navSecondaryMain {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+  z-index: 1;
+}
+header .mainNav .navDesktop .navPrimary .navSecondary .navSecondaryMain .searchBox {
+  background-color: #fff;
+  z-index: 2;
+  flex: 1;
+  margin-right: 32px;
+}
+header .mainNav .navDesktop .navPrimary .navSecondary .navSecondaryMain .searchBox .searchMask {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+  background: rgba(0, 0, 0, 0.5);
+  transition: all 0.2s;
+}
+header .mainNav .navDesktop .navPrimary .navSecondary .navSecondaryMain .searchBox .searchForm {
+  flex: 1;
+  margin: 0;
+  position: relative;
+  z-index: 2;
+}
+header .mainNav .navDesktop .navPrimary .navSecondary .navSecondaryMain .searchBox .searchForm .icon {
+  transform: translateY(-50%);
+  z-index: 1;
+  top: 50%;
+  left: 4%;
+  cursor: pointer;
+  position: absolute;
+  fill: #4d4d4d;
+}
+header .mainNav .navDesktop .navPrimary .navSecondary .navSecondaryMain .searchBox .searchForm input {
+  height: 48px;
+  font-size: 17px;
+  border-radius: 0.25rem;
+  padding: 0 32px 0 40px;
+  background: rgb(250, 250, 250);
+  cursor: pointer;
+  margin: 0;
+  width: 190px;
+  -webkit-appearance: none;
+  border: rgba(0, 0, 0, 0) 0.0625rem solid;
+}
+header .mainNav .navDesktop .navPrimary .navSecondary .navSecondaryMain .searchBox .searchForm input:hover {
+  border: 0.0625rem solid black;
+  border-radius: 4px;
+  color: black;
+}
+header .mainNav .navDesktop .navPrimary .navSecondary .navSecondaryMain .searchBox .searchForm input:focus {
+  outline-offset: 0;
+  outline: none;
+}
+header .mainNav .navDesktop .navPrimary .navSecondary .navSecondaryMain .searchSelections {
+  background-color: white;
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden;
+  position: absolute;
+  border: 1px solid black;
+  border-radius: 4px;
+  width: 243px;
+  padding: 10px;
+  z-index: 2;
+}
+header .mainNav .navDesktop .navPrimary .navSecondary .navSecondaryMain .searchSelections span {
+  font-weight: bold;
+}
+header .mainNav .navDesktop .navPrimary .navSecondary .navSecondaryMain .searchSelections .searchItem {
+  padding-top: 5px;
+}
+header .mainNav .navDesktop .navPrimary .navSecondary .shopBag {
+  position: relative;
+  margin-left: 10px;
+  z-index: 1;
+}
+header .mainNav .navDesktop .navPrimary .navSecondary .shopBag .icon {
+  position: relative;
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  z-index: 1;
+}
+header .mainNav .navDesktop .navPrimary .navSecondary .shopBag:hover {
+  cursor: pointer;
+}
+header .mainNav .navDesktop .navPrimary .navSecondary .shopBag span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  font-size: 0.75rem;
+  font-weight: 600;
+  height: 100%;
+  text-align: center;
+  left: 1px;
+  top: 0;
+  color: #d31334;
+  width: 24px;
+}
+header .mainNav .navDesktop .navPrimary .navSecondary .shopBag .cartNotification {
+  position: absolute;
+  background-color: #d31334;
+  border-radius: 50%;
+  height: 0.5rem;
+  width: 0.5rem;
+  top: 0;
+  left: 100%;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: 1;
+  animation: cart-icon_shadow-pulse__124qv 4s infinite;
+}
+
+.arrowIcon {
+  color: #d31334;
+  padding-left: 2px;
+  transform: translateY(25%);
+  transition: 0.2s ease-in-out;
+}
+.arrowIcon:hover {
+  padding-left: 8px;
+  cursor: pointer;
+}
+
+.navDesktop .navPrimary {
+  display: flex;
+  flex-direction: row;
+}
+.navDesktop .navPrimary .menuList {
+  display: flex;
+  flex-direction: row;
+}
+.navDesktop .navPrimary .menuList .navList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  overflow: hidden;
+}
+.navDesktop .navPrimary .menuList .navList h2 {
+  border: none;
+  text-align: -webkit-match-parent;
+  padding: 0.3125rem 1.25rem;
+  margin: 0;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+}
+.navDesktop .navPrimary .menuList .navList h2::after {
+  content: "";
+  width: 0;
+  height: 0.25rem;
+  display: block;
+  background: #d31334;
+  transition: 250ms;
+  margin-top: 6px;
+}
+.navDesktop .navPrimary .menuList .navList h2:hover {
+  cursor: pointer;
+}
+.navDesktop .navPrimary .menuList .navList h2:hover:after {
+  width: 1.5rem;
+}
+
+.list {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  position: relative;
+  width: max-content;
+  z-index: 1;
+  font-size: 15px;
+}
+.list::after {
+  content: "";
+  width: 0;
+  height: 2px;
+  display: block;
+  background: red;
+  transition: 250ms;
+}
+.list:hover {
+  cursor: pointer;
+}
+.list:hover::after {
+  width: 100%;
+}
+
+.mobileNavBar {
+  width: 100vw;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mobileNavBar .buttonBar {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mobileNavBar .buttonBar .logo:hover {
+  cursor: pointer;
+}
+.mobileNavBar .buttonBar .logo svg {
+  fill: rgb(211, 19, 52);
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+}
+.mobileNavBar .buttonBar .icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.mobileNavBar .buttonBar .icons .mobileIcon {
+  border: none;
+  background-color: white;
+}
+.mobileNavBar .buttonBar .icons .mobileIcon:hover {
+  cursor: pointer;
+}
+.mobileNavBar .buttonBar .icons .mobileBag span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  font-size: 0.75rem;
+  font-weight: 600;
+  height: 30px;
+  text-align: center;
+  top: 15px;
+  color: #d31334;
+  width: 45px;
+}
+.mobileNavBar .buttonBar .icons .mobileBag .cartNotification {
+  position: absolute;
+  background-color: #d31334;
+  border-radius: 50%;
+  height: 0.5rem;
+  width: 0.5rem;
+  top: 20px;
+  margin-left: 35px;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: 1;
+  animation: cart-icon_shadow-pulse__124qv 4s infinite;
+}
+.mobileNavBar .buttonBar .icons .signOutBtn {
+  background-color: #d31334;
+  flex-direction: column;
+  align-items: flex-start;
+  border: none;
+  border-radius: 4px;
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+  z-index: 3;
+  color: white;
+}
+.mobileNavBar .buttonBar .icons .signOutBtn:hover {
+  cursor: pointer;
+  background-color: darkred;
+}
+.mobileNavBar .buttonBar .icons svg {
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.mobileNavBar .buttonBar .icons svg.gift {
+  scale: 1.5;
+  transform: translateX(20%) translateY(20%);
+  z-index: 1;
+}
+.mobileNavBar .searchDiv {
+  width: 95vw;
+  border: 0.03125rem solid #57585b;
+  border-radius: 0.25rem;
+  height: 46px;
+  background-color: rgb(250, 250, 250);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.mobileNavBar .searchDiv .icon {
+  margin: 10px;
+  height: 25px;
+  width: 25px;
+  scale: 1 !important;
+}
+.mobileNavBar .searchDiv input {
+  border: none;
+  background-color: inherit;
+  height: 40px;
+  width: 100%;
+  font-size: 19px;
+  outline: none;
+}
+
+/*# sourceMappingURL=NavBar.css.map */

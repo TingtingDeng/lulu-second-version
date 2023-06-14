@@ -1,0 +1,160 @@
+.shopBagList {
+  z-index: 100;
+  position: fixed;
+  width: 350px;
+  height: auto;
+  top: 122px;
+  left: 70%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 5px;
+  box-shadow: 0 2px 5px gray;
+}
+.shopBagList .shopBagListContent_Title {
+  margin-top: 8px;
+}
+.shopBagList .shopBagListContent hr {
+  border-top: 1.5px solid lightgray;
+  border-radius: 5px;
+}
+.shopBagList .empty {
+  color: #d31334;
+}
+.shopBagList .shopItem {
+  display: flex;
+  flex-direction: row;
+  width: 320px;
+  margin-top: 8px;
+}
+.shopBagList .shopItem img {
+  width: 80px;
+  height: 100px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.shopBagList .shopItem img:hover {
+  cursor: pointer;
+}
+.shopBagList .shopItem .itemDetails {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+.shopBagList .shopItem .itemDetails h3 {
+  margin-top: 0;
+  margin-bottom: 5px;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 500;
+}
+.shopBagList .shopItem .itemDetails .productName:hover {
+  cursor: pointer;
+}
+.shopBagList .shopItem .itemDetails .productColor {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0;
+}
+.shopBagList .shopItem .itemDetails .productColor h3 {
+  font-weight: normal;
+  font-size: 15px;
+  padding-right: 10px;
+  margin: 0;
+}
+.shopBagList .shopItem .itemDetails .productSize {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0;
+}
+.shopBagList .shopItem .itemDetails .productSize h3 {
+  padding-right: 15px;
+  font-weight: normal;
+  font-size: 15px;
+  margin: 0;
+}
+.shopBagList .shopItem .itemDetails .productQuantity {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0;
+}
+.shopBagList .shopItem .itemDetails .productQuantity h3 {
+  padding-right: 15px;
+  font-weight: normal;
+  font-size: 15px;
+  margin: 0;
+}
+.shopBagList .shopItem .removeBtnNItemTotal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: space-between;
+}
+.shopBagList .shopItem .removeBtnNItemTotal .removeIcon * {
+  font-size: small;
+}
+.shopBagList .shopItem .removeBtnNItemTotal .removeIcon:hover {
+  cursor: pointer;
+}
+.shopBagList .shopBagListContent_Summary {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-around;
+}
+.shopBagList .shopBagListContent_Summary_Subtotal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.shopBagList .shopBagListContent_Summary_Subtotal_Title {
+  font-size: 15px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.shopBagList .shopBagListContent_Summary_Subtotal_Title_NoOfItem {
+  font-size: 16px;
+  font-weight: normal;
+}
+.shopBagList .shopBagListContent_Summary_Subtotal_Price {
+  font-size: 15px;
+  font-weight: 500;
+}
+.shopBagList .shopBagListContent_Summary .shopBagListContent_Shipping {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.shopBagList .shopBagListContent_Summary .shopBagListContent_Shipping_Title {
+  font-size: 15px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.shopBagList .shopBagListContent_Summary .shopBagListContent_Shipping_Price {
+  font-size: 15px;
+  font-weight: 500;
+}
+.shopBagList .checkOut {
+  color: white;
+  background-color: rgb(211, 19, 52);
+  border-radius: 5px;
+  text-align: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  width: 300px;
+  font-size: 16px;
+  font-weight: 450;
+}
+
+/*# sourceMappingURL=ShopBag.css.map */

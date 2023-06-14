@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/lulu-second-version/static/css/main.4f38f493.css",
+    "main.js": "/lulu-second-version/static/js/main.1fd6af47.js",
+    "static/media/Men.png": "/lulu-second-version/static/media/Men.55f10c084e86d8ea7c97.png",
+    "static/media/Women.png": "/lulu-second-version/static/media/Women.1f4f7245297de0eaf000.png",
+    "static/media/acc.png": "/lulu-second-version/static/media/acc.d3445298a5495d9f617d.png",
+    "static/media/Logo.png": "/lulu-second-version/static/media/Logo.b872c3a4bf699d3bb091.png",
+    "static/media/axios.cjs": "/lulu-second-version/static/media/axios.e7d77f0967a69d31d7fc.cjs",
+    "index.html": "/lulu-second-version/index.html",
+    "main.4f38f493.css.map": "/lulu-second-version/static/css/main.4f38f493.css.map",
+    "main.1fd6af47.js.map": "/lulu-second-version/static/js/main.1fd6af47.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4f38f493.css",
+    "static/js/main.1fd6af47.js"
+  ]
+}
